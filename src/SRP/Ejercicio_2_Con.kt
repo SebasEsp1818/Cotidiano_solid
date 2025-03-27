@@ -4,7 +4,7 @@ class cliente (val nombre: String, val edad: Int)
 
 class ClienteRepositorio {
     fun guardar(cliente: Cliente) {
-        println("Guardando cliente ${cliente.nombre} en la base de datos...")
+        println("Guardando cliente  en la base de datos...")
     }
 }
 
