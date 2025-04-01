@@ -12,8 +12,7 @@ class Televisor : Dispositivo() {
 }
 class Radio : Dispositivo() {
     override fun encender() {
-        throw UnsupportedOperationException("La radio no se puede
-                encender de esta manera")
+        throw UnsupportedOperationException("La radio no se puede encender de esta manera")
     }
 }
 fun main() {
